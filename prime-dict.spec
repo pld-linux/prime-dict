@@ -1,14 +1,13 @@
 Summary:	Dictionaries for PRIME - a Japanese PRedictive Input Method Editor
-#Summary(pl.UTF-8):	-
+Summary(pl.UTF-8):	Słowniki dla PRIME'a - edytora przewidującej metody wprowadzania tekstu japońskiego
 Name:		prime-dict
 Version:	1.0.0
 Release:	1
-License:	GPL
+License:	GPL v2
 Group:		Libraries
 Source0:	http://prime.sourceforge.jp/src/%{name}-%{version}.tar.gz
 # Source0-md5:	41e36f11d927220917ba15bb8842a971
 URL:		http://taiyaki.org/prime/
-BuildRequires:	sed >= 4.0
 BuildRequires:	rpmbuild(macros) >= 1.484
 BuildRequires:	ruby >= 1:1.8.6
 BuildRequires:	ruby-modules
@@ -22,7 +21,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Dictionaries for PRIME - a Japanese PRedictive Input Method Editor.
 
-#%description -l pl.UTF-8
+%description -l pl.UTF-8
+Słowniki dla PRIME'a (PRedictive Input Method Editor) - edytora
+przewidującej metody wprowadzania tekstu japońskiego.
 
 %prep
 %setup -q
