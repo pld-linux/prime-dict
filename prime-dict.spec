@@ -2,7 +2,7 @@ Summary:	Dictionaries for PRIME - a Japanese PRedictive Input Method Editor
 Summary(pl.UTF-8):	Słowniki dla PRIME'a - edytora przewidującej metody wprowadzania tekstu japońskiego
 Name:		prime-dict
 Version:	1.0.0
-Release:	5
+Release:	6
 License:	GPL v2
 Group:		Libraries
 Source0:	http://prime.sourceforge.jp/src/%{name}-%{version}.tar.gz
